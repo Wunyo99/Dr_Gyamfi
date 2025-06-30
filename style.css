@@ -38,7 +38,10 @@ header .contact {
     color: white;
     gap: 2rem;
 }
-
+.header .contact .phone p{
+    color: white;
+    text-decoration: none;
+}
 header .contact .phone,
 .time {
     display: flex;
