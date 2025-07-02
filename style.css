@@ -138,7 +138,10 @@ nav ul li a:hover {
     position: fixed;
     top: 4rem;
     right: 0;
+<<<<<<< HEAD
     /* height: 58vh; */
+=======
+>>>>>>> 3bc13f48b4313fb5713beee5e158fb0764301391
     width: 290px;
     z-index: 999;
     background-color: white;
