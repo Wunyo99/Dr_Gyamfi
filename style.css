@@ -6,12 +6,15 @@
 }
 
 body {
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
 }
+/* body {
+    overflow-x: hidden;
+} */
 
 html {
     scroll-behavior: smooth;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
 
 }
 
