@@ -148,7 +148,6 @@ nav ul li a:hover {
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     transition: .3s;
-
     animation: slideInFromRight 0.5s ease-in;
 
 }
@@ -165,7 +164,6 @@ nav ul li a:hover {
         transform: translateX(0);
 
     }
-
 
     100% {
         transform: translateX(100%);
@@ -188,7 +186,6 @@ nav ul li a:hover {
     position: relative;
     left: 16rem;
 }
-
 
 .sidebar li {
     display: flex;
@@ -228,8 +225,6 @@ span {
 .hero .text p {
     color: hsl(224, 23%, 55%);
     text-align: justify;
-    text-justify: inter-word;
-    hyphens: auto;
 
 }
 
@@ -953,7 +948,7 @@ footer .office-hours {
 }
 
 hr {
-    width: 90%;
+    width: 98%;
     display: flex;
     justify-self: center;
     border: 0.5px solid hsla(225, 21%, 65%, 0.281);
@@ -1073,6 +1068,13 @@ hr {
         font-size: 40px;
         text-align: center;
     }
+
+    .hp {
+       width: 100%;
+        max-width: 30rem; 
+        text-align: center; 
+        /* hyphens: auto;   */
+        }
 
     .hero .text p,
     .serv-cta p,
