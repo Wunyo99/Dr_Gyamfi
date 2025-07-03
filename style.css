@@ -229,8 +229,6 @@ span {
     color: hsl(224, 23%, 55%);
     text-align: justify;
     text-justify: inter-word;
-    hyphens: auto;
-
 }
 
 .hero .btn {
