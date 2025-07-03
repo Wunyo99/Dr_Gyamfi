@@ -148,7 +148,6 @@ nav ul li a:hover {
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     transition: .3s;
-
     animation: slideInFromRight 0.5s ease-in;
 
 }
@@ -227,8 +226,7 @@ span {
 
 .hero .text p {
     color: hsl(224, 23%, 55%);
-    text-align: justify;
-    text-justify: inter-word;
+    text-align: center;
 }
 
 .hero .btn {
