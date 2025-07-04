@@ -76,7 +76,7 @@ header .emergency {
     padding-inline: 3rem;
     /* position: fixed; */
     width: 100%;
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
     background-color: white;
 
 }
@@ -148,13 +148,13 @@ nav ul li a:hover {
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     transition: .3s;
-    animation: slideInFromRight 0.5s ease-in;
+    animation: slideInFromRight .25s ease-in;
 
 }
 
 .slideout {
     transition: .3s;
-    animation: slideout 0.5s ease-out;
+    animation: slideout 0.25s ease-out;
 }
 
 
@@ -225,7 +225,6 @@ span {
 .hero .text p {
     color: hsl(224, 23%, 55%);
     text-align: justify;
-
 }
 
 .hero .btn {
@@ -237,6 +236,7 @@ span {
 
 .hero .btn a {
     background-color: blue;
+    /* width: 100%; */
     font-size: 20px;
     color: white;
     text-decoration: none;
@@ -1070,11 +1070,11 @@ hr {
     }
 
     .hp {
-       width: 100%;
-        max-width: 30rem; 
-        text-align: center; 
+        width: 100%;
+        max-width: 30rem;
+        text-align: center;
         /* hyphens: auto;   */
-        }
+    }
 
     .hero .text p,
     .serv-cta p,
